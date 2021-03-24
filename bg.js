@@ -10,7 +10,7 @@ function handleImgLoad(image){
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src = `images/${imgNumber + 1}.jpg`;
+    image.src = `${imgNumber + 1}.jpg`;
     image.addEventListener("load", handleImgLoad(image));
 }
 
